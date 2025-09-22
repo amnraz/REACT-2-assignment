@@ -1,0 +1,42 @@
+/* Full page center wrapper */
+
+.timer-container {
+    text-align: center;
+
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.button-group {
+    margin-top: 20px;
+   
+    border-radius: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #4ca8af;
+    color: white;
+
+}
+
+button:disabled {
+    background-color: #f0adad;
+    cursor: not-allowed;
+}
